@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+    
+}
+
+#textcol{
+    color:#8A47F6;
+    
+}
+
+#buttoncol{
+    background-color: #FE8C45;
+    border-radius: 50px;
+}
+
+.large-text{
+    font-size: 70px;
+    font-weight: 700;  
+}
+
+
+
+
+
+
+/* about section*/
+#texts{
+    
+font-size: 40px;
+font-weight: 900;
+line-height: 58px;
+
+}
+/*Our photogallery*/
+#gallery{
+    .row{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+
+
+        .col{
+            grid-column: span 3;
+            width: auto;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+    }
+   
+    
+
+}
+
+/*price*/
+.pricecard{
+    h5{font-family: Nexa;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    h6{
+        
+        font-size: 40px;
+        font-weight: 900;
+       color: black;
+
+    }
+
+}
+
+    
+    
+
+
+
+
